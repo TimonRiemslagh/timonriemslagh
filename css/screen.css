@@ -1,8 +1,8 @@
 * {
-  font-family: "Avenir Next"; }
+  font-family: "Josefin Sans", sans-serif; }
 
 html {
-  font: "Avenir Next" 125%/1.5 "Avenir Next";
+  font: "Josefin Sans", sans-serif 125%/1.5 "Josefin Sans", sans-serif;
   -webkit-overflow-scrolling: touch;
   background-color: #000000; }
 
@@ -64,7 +64,7 @@ body {
 */
 .c-typo-intro {
   font-size: 40px;
-  line-height: 1.25; }
+  line-height: 1.2; }
   @media screen and (max-width: 680px) {
     .c-typo-intro {
       font-size: 30px; } }
@@ -76,7 +76,8 @@ body {
 p {
   margin-top: 0;
   margin-bottom: 1em;
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  line-height: 1.3; }
 
 strong {
   color: #FFEB00; }

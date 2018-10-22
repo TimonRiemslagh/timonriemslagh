@@ -6,7 +6,7 @@
 
 .c-typo-intro {
     font-size: 40px;
-    line-height: 1.25;
+    line-height: 1.2;
 
     @media screen and (max-width: $breakpoint-md) {
         font-size: 30px;
@@ -22,6 +22,7 @@ p {
     margin-top: 0;
     margin-bottom: 1em;
     font-size: 1.25em;
+    line-height: 1.3;
 }
 
 strong {
