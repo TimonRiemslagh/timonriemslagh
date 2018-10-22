@@ -1,8 +1,8 @@
 * {
-  font-family: "Josefin Sans", sans-serif; }
+  font-family: "Josefin Sans|Montserrat", sans-serif; }
 
 html {
-  font: "Josefin Sans", sans-serif 125%/1.5 "Josefin Sans", sans-serif;
+  font: "Josefin Sans|Montserrat", sans-serif 125%/1.5 "Josefin Sans|Montserrat", sans-serif;
   -webkit-overflow-scrolling: touch;
   background-color: #000000; }
 
@@ -33,13 +33,13 @@ body {
   height: 170px;
   margin: 0;
   background-repeat: no-repeat;
-  background-image: url(../img/svg/TR-logo-beta-v2.svg);
+  background-image: url(../img/svg/TR-logo-beta-lg.svg);
   text-indent: -99999px;
   width: 130px;
   background-size: contain; }
   @media screen and (max-width: 680px) {
     .c-brand {
-      background-image: url(../img/svg/TR-logo-beta-v2.svg);
+      background-image: url(../img/svg/TR-logo-beta-lg.svg);
       height: 120px;
       width: 70px; } }
 
