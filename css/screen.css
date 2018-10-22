@@ -1,0 +1,105 @@
+/* Components */
+* {
+  font-family: "Avenir Next"; }
+
+html {
+  font: "Avenir Next" 125%/1.5 "Avenir Next";
+  -webkit-overflow-scrolling: touch;
+  background-color: #000000; }
+
+body {
+  color: #F4EC89; }
+
+/*
+::-moz-selection {
+    background-color: $body-selection-background-color;
+    color: $body-selection-color;
+    text-shadow: $body-selection-text-shadow;
+}
+
+::selection {
+    background-color: $body-selection-background-color;
+    color: $body-selection-color;
+    text-shadow: $body-selection-text-shadow;
+}*/
+/*
+    -----
+    Components: Brand
+    -----
+*/
+.c-brand {
+  content: '';
+  display: block;
+  height: 170px;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-image: url(../img/svg/TR-logo-beta-lg.svg);
+  text-indent: -99999px; }
+
+/*
+    -----
+    Components: Rows
+    -----
+*/
+.c-row {
+  padding: 60px 100px; }
+
+/*
+    -----
+    Components: Typography
+    -----
+*/
+.c-typo-intro {
+  font-size: 40px;
+  line-height: 1.25; }
+
+.c-typo-sm {
+  margin-top: 4em;
+  font-size: 16px; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-size: 1.25em; }
+
+strong {
+  color: #FFEB00; }
+
+/*
+    -----
+    Comonents: Links
+    -----
+*/
+a {
+  font-weight: bold; }
+  a, a:visited, a:focus, a:active {
+    text-decoration: underline;
+    color: #FFEB00; }
+  a:hover {
+    color: #FFEB00;
+    text-decoration: none; }
+
+/*
+    -----
+    Components: Content
+    -----
+*/
+.c-content {
+  margin-left: 10em; }
+
+/*
+    -----
+    Display: grid
+    -----
+*/
+.d-grid {
+  display: grid;
+  grid-template-columns: 200px auto; }
+
+/*
+    -----
+    Utilities: Widths
+    -----
+*/
+.u-max-width-sm, .c-content {
+  max-width: 32em; }

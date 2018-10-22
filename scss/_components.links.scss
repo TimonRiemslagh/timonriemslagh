@@ -1,0 +1,19 @@
+/*
+    -----
+    Comonents: Links
+    -----
+*/
+
+a {
+    &, &:visited, &:focus, &:active {
+        text-decoration: underline;
+        color: $color-beta;
+    }
+
+    &:hover {
+        color: $color-beta;
+        text-decoration: none;
+    }
+
+    font-weight: bold;
+}

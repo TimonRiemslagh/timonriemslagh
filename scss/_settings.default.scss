@@ -1,0 +1,53 @@
+//
+//  Default settings
+//  ---
+//
+//  Global
+//  ---
+//  Colors
+//  Modular scale
+//  Font settings
+//  UI (border-radius, -width, -style)
+//  Z-indexes
+//  Breakpoints
+//  Grid
+//  Increments
+//  Animations
+//
+//  Element settings
+//  ---
+//  Page
+//  Typography
+//  Images
+//  Forms
+//  Tables
+//
+//  Object settings
+//  ---
+//  Grid
+//  Media
+//
+//  Utilities
+//  ---
+//  Debug
+//
+
+// ---
+// Colors
+// ---
+
+// Base colors
+$color-neutral                      : #000000;
+
+$color-alpha                        : #F4EC89;
+$color-beta                         : #FFEB00 ;
+
+$alpha-font-family                  : "Avenir Next";
+
+$alpha-font-size                    : 20;
+$alpha-line-height                  : 1.5;
+
+$html-background-color              : $color-neutral;
+$html-font-family                   : $alpha-font-family;
+
+$body-color                         : $color-alpha;

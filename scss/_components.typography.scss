@@ -1,0 +1,25 @@
+/*
+    -----
+    Components: Typography
+    -----
+*/
+
+.c-typo-intro {
+    font-size: 40px;
+    line-height: 1.25;
+}
+
+.c-typo-sm {
+    margin-top: 4em;
+    font-size: 16px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1.25em;
+}
+
+strong {
+    color: $color-beta;
+}
