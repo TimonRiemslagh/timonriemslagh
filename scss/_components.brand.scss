@@ -12,4 +12,9 @@
     background-repeat: no-repeat;
     background-image: url(../img/svg/TR-logo-beta-lg.svg);
     text-indent: -99999px;
+
+    @media screen and (max-width: $breakpoint-md) {
+        background-image: url(../img/svg/TR-logo-beta.svg);
+        height: 120px;
+    }
 }

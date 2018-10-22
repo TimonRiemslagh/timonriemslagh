@@ -6,4 +6,12 @@
 
 .c-row {
     padding: 60px 100px;
+
+    @media screen and (max-width: $breakpoint-md) {
+        padding: 40px;
+    }
+
+    @media screen and (max-width: $breakpoint-sm) {
+        padding: 40px 25px;
+    }
 }

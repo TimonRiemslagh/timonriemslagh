@@ -7,6 +7,10 @@
 .c-typo-intro {
     font-size: 40px;
     line-height: 1.25;
+
+    @media screen and (max-width: $breakpoint-md) {
+        font-size: 30px;
+    }
 }
 
 .c-typo-sm {

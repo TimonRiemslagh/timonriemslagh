@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/timon/.nvm/versions/node/v7.7.4/bin/node',
+1 verbose cli   '/Users/timon/.nvm/versions/node/v7.7.4/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'scss' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.4
+4 verbose run-script [ 'prescss', 'scss', 'postscss' ]
+5 info lifecycle timonriemslagh2@1.0.0~prescss: timonriemslagh2@1.0.0
+6 silly lifecycle timonriemslagh2@1.0.0~prescss: no script for prescss, continuing
+7 info lifecycle timonriemslagh2@1.0.0~scss: timonriemslagh2@1.0.0
+8 verbose lifecycle timonriemslagh2@1.0.0~scss: unsafe-perm in lifecycle true
+9 verbose lifecycle timonriemslagh2@1.0.0~scss: PATH: /Users/timon/.nvm/versions/node/v7.7.4/lib/node_modules/npm/bin/node-gyp-bin:/Users/timon/Sites/timonriemslagh/node_modules/.bin:/Users/timon/Sites/timonriemslagh/node_modules/.bin:/Users/timon/.nvm/versions/node/v7.7.4/lib/node_modules/npm/bin/node-gyp-bin:/Users/timon/Sites/timonriemslagh/node_modules/.bin:/Users/timon/.rvm/gems/ruby-2.1.10/bin:/Users/timon/.rvm/gems/ruby-2.1.10@global/bin:/Users/timon/.rvm/rubies/ruby-2.1.10/bin:/Users/timon/.nvm/versions/node/v7.7.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/timon/.rvm/bin
+10 verbose lifecycle timonriemslagh2@1.0.0~scss: CWD: /Users/timon/Sites/timonriemslagh
+11 silly lifecycle timonriemslagh2@1.0.0~scss: Args: [ '-c', 'node-sass scss/screen.scss -o css' ]
+12 silly lifecycle timonriemslagh2@1.0.0~scss: Returned: code: 1  signal: null
+13 info lifecycle timonriemslagh2@1.0.0~scss: Failed to exec scss script
+14 verbose stack Error: timonriemslagh2@1.0.0 scss: `node-sass scss/screen.scss -o css`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/Users/timon/.nvm/versions/node/v7.7.4/lib/node_modules/npm/lib/utils/lifecycle.js:279:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:194:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/timon/.nvm/versions/node/v7.7.4/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:194:7)
+14 verbose stack     at maybeClose (internal/child_process.js:899:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid timonriemslagh2@1.0.0
+16 verbose cwd /Users/timon/Sites/timonriemslagh
+17 error Darwin 18.0.0
+18 error argv "/Users/timon/.nvm/versions/node/v7.7.4/bin/node" "/Users/timon/.nvm/versions/node/v7.7.4/bin/npm" "run" "scss"
+19 error node v7.7.4
+20 error npm  v4.1.2
+21 error code ELIFECYCLE
+22 error timonriemslagh2@1.0.0 scss: `node-sass scss/screen.scss -o css`
+22 error Exit status 1
+23 error Failed at the timonriemslagh2@1.0.0 scss script 'node-sass scss/screen.scss -o css'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the timonriemslagh2 package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node-sass scss/screen.scss -o css
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs timonriemslagh2
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls timonriemslagh2
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

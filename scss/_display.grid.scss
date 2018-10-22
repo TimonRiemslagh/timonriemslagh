@@ -8,3 +8,12 @@
     display: grid;
     grid-template-columns: 200px auto;
 }
+
+.d-md-grid {
+    display: grid;
+    grid-template-columns: 200px auto;
+
+    @media screen and (max-width: $breakpoint-lg) {
+        display: block;
+    }
+}
