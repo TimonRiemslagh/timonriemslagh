@@ -6,12 +6,14 @@
   "scripts": {
     "scss-watch": "nodemon -e scss -x \"npm run scss\"",
     "scss": "node-sass scss/screen.scss -o css",
-    "serve": "http-server ./"
+    "serve": "http-server ./",
+    "deploy-ready": "copyfiles css/* img/**/* index.html dist/"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap-scss": "^4.1.3",
+    "copyfiles": "^2.1.0",
     "http-server": "^0.11.1",
     "node-sass": "^4.9.4",
     "nodemon": "^1.18.4"

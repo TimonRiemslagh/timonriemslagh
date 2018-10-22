@@ -1,17 +1,13 @@
 /*
     -----
-    Display: grid
+    Components: grid
     -----
 */
 
-.d-grid {
+.c-grid {
     display: grid;
     grid-template-columns: 200px auto;
-}
-
-.d-md-grid {
-    display: grid;
-    grid-template-columns: 200px auto;
+    grid-gap: 120px;
 
     @media screen and (max-width: $breakpoint-lg) {
         display: block;

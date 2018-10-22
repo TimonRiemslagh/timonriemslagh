@@ -6,7 +6,8 @@
 
 .c-content {
     @extend .u-max-width-sm;
-    margin-left: 10em;
+    margin-left: auto;
+    // margin-left: 10em;
 
     @media screen and (max-width: $breakpoint-lg) {
         margin-left: 0;
