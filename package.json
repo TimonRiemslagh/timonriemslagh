@@ -7,7 +7,7 @@
     "scss-watch": "nodemon -e scss -x \"npm run scss\"",
     "scss": "node-sass scss/screen.scss -o css",
     "serve": "http-server ./",
-    "deploy-ready": "copyfiles css/* img/**/* index.html dist/"
+    "deploy-ready": "copyfiles css/* img/**/* favicon.png index.html dist/"
   },
   "author": "",
   "license": "ISC",
