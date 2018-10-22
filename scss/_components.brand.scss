@@ -10,11 +10,14 @@
     height: 170px;
     margin: 0;
     background-repeat: no-repeat;
-    background-image: url(../img/svg/TR-logo-beta-lg.svg);
+    background-image: url(../img/svg/TR-logo-beta-v2.svg);
     text-indent: -99999px;
+    width: 130px;
+    background-size: contain;
 
     @media screen and (max-width: $breakpoint-md) {
-        background-image: url(../img/svg/TR-logo-beta.svg);
+        background-image: url(../img/svg/TR-logo-beta-v2.svg);
         height: 120px;
+        width: 70px;
     }
 }
