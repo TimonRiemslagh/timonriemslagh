@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="162px" height="101px" viewBox="0 0 162 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>TR-logo-beta-lg</title>
+    <title>Group</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Montserrat-Regular, Montserrat" font-size="144" font-weight="normal">
-        <g id="TR-logo-beta-lg" transform="translate(0.000000, -38.000000)" fill="#FFEB00">
-            <g>
-                <g id="T">
-                    <text>
-                        <tspan x="0" y="139">T</tspan>
-                    </text>
-                </g>
-                <g id="R" transform="translate(65.000000, 0.000000)">
-                    <text>
-                        <tspan x="0" y="139">R</tspan>
-                    </text>
-                </g>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-240.000000, -142.000000)" fill="#FFEB00">
+            <g id="Group" transform="translate(240.000000, 142.000000)">
+                <polygon id="T" points="35.424 9.216 0 9.216 0 0 81.504 0 81.504 9.216 46.08 9.216 46.08 100.8 35.424 100.8"></polygon>
+                <path d="M149.832,100.8 L126.792,68.4 C124.199987,68.6880014 121.512014,68.832 118.728,68.832 L91.656,68.832 L91.656,100.8 L81,100.8 L81,0 L118.728,0 C131.592064,0 141.671964,3.07196928 148.968,9.216 C156.264036,15.3600307 159.912,23.8079462 159.912,34.56 C159.912,42.4320394 157.92002,49.0799729 153.936,54.504 C149.95198,59.9280271 144.264037,63.839988 136.872,66.24 L161.496,100.8 L149.832,100.8 Z M118.44,59.76 C128.42405,59.76 136.055974,57.5520221 141.336,53.136 C146.616026,48.7199779 149.256,42.5280398 149.256,34.56 C149.256,26.3999592 146.616026,20.1360218 141.336,15.768 C136.055974,11.3999782 128.42405,9.216 118.44,9.216 L91.656,9.216 L91.656,59.76 L118.44,59.76 Z" id="R"></path>
             </g>
         </g>
     </g>
