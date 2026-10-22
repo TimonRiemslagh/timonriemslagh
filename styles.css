@@ -14,6 +14,8 @@
   --bordje-bg: oklch(0.93 0.035 40);
   --slenter: oklch(0.62 0.11 245);
   --slenter-bg: oklch(0.92 0.04 238);
+  --leeshoek: oklch(0.5 0.07 55);
+  --leeshoek-bg: oklch(0.95 0.022 75);
   --round: "Nunito", "Helvetica Neue", sans-serif;
   --sans: "Geist", "Helvetica Neue", Helvetica, sans-serif;
   --mono: "Geist Mono", ui-monospace, monospace;
@@ -49,17 +51,19 @@ ul { padding: 0; list-style: none; }
 
 /* Tools */
 .toolsection { display: flex; flex-direction: column; gap: 24px; }
-.tools { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr)); gap: 24px; }
+.tools { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 24px; }
 .tool { display: flex; flex-direction: column; border-radius: 28px; background: #fff; border: 1px solid var(--line); overflow: hidden; color: var(--ink); transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
 .tool:hover { transform: translateY(-4px); border-color: var(--leaf); box-shadow: 0 22px 44px -28px oklch(0.4 0.1 152 / 0.5); color: var(--ink); }
-.panel { height: 200px; display: flex; align-items: flex-end; justify-content: space-between; padding: 24px 28px; gap: 16px; }
+.panel { height: 200px; display: flex; align-items: flex-end; justify-content: space-between; padding: 24px; gap: 16px; }
 .p-bordje { background: var(--bordje-bg); }
 .p-slenter { background: var(--slenter-bg); }
-.tname { font-family: var(--round); font-weight: 800; font-size: 48px; line-height: 1; letter-spacing: -0.035em; }
-.orb { width: 88px; height: 88px; border-radius: 50%; flex: none; display: flex; align-items: center; justify-content: center; }
-.orb i { display: block; width: 34px; height: 34px; border-radius: 50%; background: #fff; }
+.p-leeshoek { background: var(--leeshoek-bg); }
+.tname { font-family: var(--round); font-weight: 800; font-size: 38px; line-height: 1; letter-spacing: -0.035em; }
+.orb { width: 72px; height: 72px; border-radius: 50%; flex: none; display: flex; align-items: center; justify-content: center; }
+.orb i { display: block; width: 28px; height: 28px; border-radius: 50%; background: #fff; }
 .o-bordje { background: var(--bordje); }
 .o-slenter { background: var(--slenter); }
+.o-leeshoek { background: var(--leeshoek); }
 .body { padding: 24px 28px 28px; display: flex; flex-direction: column; gap: 18px; flex: 1; }
 .tagline { font-family: var(--round); font-weight: 700; font-size: 20px; line-height: 1.3; letter-spacing: -0.01em; }
 .desc { font-size: 15px; line-height: 1.6; color: var(--ink-soft); }
@@ -83,7 +87,6 @@ ul { padding: 0; list-style: none; }
 @media (max-width: 700px) {
   .page { padding: 24px 16px 40px; gap: 44px; }
   .panel { height: 160px; padding: 20px; }
-  .tname { font-size: 38px; }
   .orb { width: 68px; height: 68px; }
   .orb i { width: 26px; height: 26px; }
   .body { padding: 20px; }
