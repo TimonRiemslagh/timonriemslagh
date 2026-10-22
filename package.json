@@ -1,0 +1,9 @@
+{
+  "name": "timonriemslagh",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "22.x" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.127.0"
+  }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Timon Riemslagh</title>
+<meta name="description" content="Front-end developer uit Gent. Kleine tools voor het gewone leven, en wat ik ermee doe.">
+<meta name="theme-color" content="#f6f9f3">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+  <aside class="side rise">
+    <div class="profile">
+      <div class="avatar" aria-hidden="true">TR</div>
+      <h1 class="serif name">Timon Riemslagh</h1>
+      <p class="bio">Front-end developer uit Gent. Ik maak kleine tools voor het gewone leven, en hier hou ik bij wat ik ermee doe.</p>
+    </div>
+    <div class="group">
+      <span class="mono soft">Mijn tools</span>
+      <div class="toollist">
+        <a class="toolrow" href="https://bordje.timonriemslagh.be">
+          <span class="ticon ti-cook"><span></span></span>
+          <span class="tcopy"><span class="tname">Bordje</span><span class="tline">Elke avond iets goeds op je bordje</span></span>
+          <span class="soft" aria-hidden="true">→</span>
+        </a>
+        <a class="toolrow" href="https://tri-harmoney.github.io/slenter/">
+          <span class="ticon ti-walk"><span></span></span>
+          <span class="tcopy"><span class="tname">Slenter</span><span class="tline">Leuke plekken op wandelafstand</span></span>
+          <span class="soft" aria-hidden="true">→</span>
+        </a>
+        <div class="tnext">Volgende tool in de maak</div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="rise d1">
+    <section class="mood" id="mood" hidden aria-label="Zo gaat het">
+      <div class="moodleft">
+        <div class="group">
+          <span class="mono deep" id="mood-label">Zo gaat het</span>
+          <p class="serif moodline" id="mood-text"></p>
+        </div>
+        <div class="group">
+          <p class="note" id="mood-note"></p>
+          <div class="row" id="mood-actions" hidden>
+            <button class="post-btn" id="mood-approve" type="button">Goedkeuren</button>
+            <button class="ghostbtn" id="mood-redo" type="button">Opnieuw maken</button>
+          </div>
+        </div>
+      </div>
+      <div class="moodright">
+        <div class="group" id="likes-group"><span class="mono deep">Blij van</span><div class="likes" id="likes"></div></div>
+        <div class="group" id="dislikes-group"><span class="mono deep">Minder blij van</span><div class="likes" id="dislikes"></div></div>
+        <div class="group" id="weeks-group"><span class="mono deep">Per week</span><div class="weeks" id="weeks"></div></div>
+      </div>
+    </section>
+
+    <form class="composer" id="composer" hidden>
+      <label class="sr" for="c-title">Wat heb je gedaan, of wat viel je op?</label>
+      <input class="field" id="c-title" maxlength="200" placeholder="Wat heb je gedaan, of wat viel je op?" required>
+      <textarea class="field" id="c-body" maxlength="2000" rows="2" placeholder="Meer vertellen (mag leeg)"></textarea>
+      <div class="row">
+        <div class="chips" id="c-types" role="radiogroup" aria-label="Soort"></div>
+        <div class="row">
+          <label class="private"><input type="checkbox" id="c-private"> Privé</label>
+          <button class="post-btn" id="c-go">Plaatsen</button>
+        </div>
+      </div>
+      <div class="row">
+        <span class="note" id="c-msg"></span>
+        <button class="linkbtn" id="sign-out" type="button">Uitloggen</button>
+      </div>
+    </form>
+
+    <div class="chips" id="filters" role="tablist" aria-label="Filter"></div>
+    <div class="wall" id="wall" aria-live="polite"></div>
+    <p class="empty soft" id="empty" hidden>Nog geen updates.</p>
+    <div class="loadmore" id="more-wrap" hidden><button class="ghostbtn" id="more" type="button">Meer updates</button></div>
+  </main>
+</div>
+
+<!-- Sign in by opening the page with #inloggen; there is no visible link. -->
+<dialog class="login" id="login">
+  <form id="login-form" method="dialog">
+    <h2 class="serif">Inloggen</h2>
+    <label for="login-email">E-mailadres</label>
+    <input id="login-email" type="email" autocomplete="username" required>
+    <label for="login-password">Wachtwoord</label>
+    <input id="login-password" type="password" autocomplete="current-password" required>
+    <p class="note" id="login-msg"></p>
+    <div class="row">
+      <button class="post-btn" id="login-go">Inloggen</button>
+      <button class="ghostbtn" id="login-close" type="button">Sluiten</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.116.0/dist/umd/supabase.js"></script>
+<script src="wall.js"></script>
+</body>
+</html>
