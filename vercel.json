@@ -1,10 +1,4 @@
 {
-  "functions": {
-    "api/mood.js": { "maxDuration": 300 }
-  },
-  "crons": [
-    { "path": "/api/mood", "schedule": "0 18 * * 0" }
-  ],
   "headers": [
     {
       "source": "/(.*)",
