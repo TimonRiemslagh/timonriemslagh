@@ -1,4 +1,4 @@
-/* timonriemslagh.be: light and green, built from the Claude Design file "Homepage v3". */
+/* timonriemslagh.be: light and green, built from the Claude Design file "Homepage v4". */
 :root {
   --paper: oklch(0.986 0.008 135);
   --paper-2: oklch(0.962 0.018 140);
@@ -15,6 +15,10 @@
   --idea-bg: oklch(0.94 0.04 220);
   --update-bg: oklch(0.94 0.04 300);
   --feedback-bg: oklch(0.94 0.04 30);
+  --dot-1: oklch(0.8 0.08 145);
+  --dot-2: oklch(0.6 0.11 150);
+  --dot-3: oklch(0.38 0.07 155);
+  --round: "Nunito", "Helvetica Neue", sans-serif;
   --serif: "Newsreader", Georgia, serif;
   --sans: "Geist", "Helvetica Neue", Helvetica, sans-serif;
   --mono: "Geist Mono", ui-monospace, monospace;
@@ -39,10 +43,16 @@ button, input, textarea { font: inherit; color: inherit; }
 
 /* Profile */
 .side { position: sticky; top: 32px; display: flex; flex-direction: column; gap: 32px; }
-.profile { display: flex; flex-direction: column; gap: 18px; }
-.avatar { width: 88px; height: 88px; border-radius: 50%; background: var(--mint); display: flex; align-items: center; justify-content: center; font-family: var(--serif); font-size: 30px; color: var(--leaf-deep); }
-.name { font-size: 44px; line-height: 1; }
-.bio { font-size: 16px; line-height: 1.6; color: var(--ink-soft); }
+.profile { display: flex; flex-direction: column; gap: 14px; }
+.brandrow { display: flex; align-items: center; gap: 12px; }
+.kle { display: flex; align-items: flex-end; gap: 5px; flex: none; }
+.kle i { display: block; border-radius: 50%; }
+.kle i:nth-child(1) { width: 10px; height: 10px; background: var(--dot-1); }
+.kle i:nth-child(2) { width: 18px; height: 18px; background: var(--dot-2); }
+.kle i:nth-child(3) { width: 30px; height: 30px; background: var(--dot-3); }
+.wordmark { font-family: var(--round); font-weight: 700; font-size: 40px; line-height: 1; letter-spacing: -0.03em; }
+.byline { font-family: var(--round); font-weight: 500; font-size: 16px; color: var(--ink-soft); }
+.bio { font-size: 16px; line-height: 1.6; color: var(--ink-soft); margin-top: 6px; }
 .group { display: flex; flex-direction: column; gap: 10px; }
 .toollist { display: flex; flex-direction: column; gap: 10px; }
 .toolrow { display: grid; grid-template-columns: 40px minmax(0, 1fr) auto; gap: 14px; align-items: center; padding: 14px; border-radius: 16px; background: #fff; border: 1px solid var(--line); color: var(--ink); transition: border-color .2s ease, transform .2s ease; }
@@ -52,7 +62,7 @@ button, input, textarea { font: inherit; color: inherit; }
 .ti-cook { background: var(--cook-bg); } .ti-cook span { background: var(--cook); }
 .ti-walk { background: var(--walk-bg); } .ti-walk span { background: var(--walk); }
 .tcopy { display: flex; flex-direction: column; gap: 3px; }
-.tname { font-family: var(--serif); font-size: 22px; line-height: 1.1; }
+.tname { font-family: var(--round); font-weight: 700; font-size: 20px; line-height: 1.1; letter-spacing: -0.02em; }
 .tline { font-size: 13px; color: var(--ink-soft); }
 .tnext { padding: 14px; border-radius: 16px; border: 1.5px dashed var(--line); font-size: 13px; color: var(--ink-soft); }
 
