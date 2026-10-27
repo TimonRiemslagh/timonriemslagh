@@ -2,7 +2,7 @@
 
 *kleinigheden: kleine tools voor het gewone leven.*
 
-A one-page static site that shows my tools (Bordje, Slenter, Leeshoek) and links to each of them.
+A one-page static site that shows my tools (Bordje, Slenter, Leeshoek, Deuntje) and links to each of them.
 
 Hosted at https://timonriemslagh.be. Design: Claude Design project "timonriemslagh.be", file "Homepage v5".
 
